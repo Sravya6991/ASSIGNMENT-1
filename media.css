@@ -1,0 +1,61 @@
+@media screen and (min-width: 420px) and (max-width: 1260px){
+    nav {
+        display: none;
+    }
+    #logo {
+        top: 59px;
+        left: 164px;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        background-color: blue;
+    }
+    header h2 {
+        top: 74px;
+        left: 188px;
+        width: 41px;
+        height: 59px;
+        font-size: 42px;
+    }
+    h1 {
+        top: 147px;
+        left: 29px;
+        font-size: 28px;
+        width: 370px;
+        height: 75px;
+        line-height: 36px;
+        text-align: center;
+    }
+    #hero-select {
+        top: 277px;
+        left: 37px;
+        flex-direction: column;
+    }
+    
+    #search-restaurants {
+        width: 100%;
+        padding: 21px 0;
+    }
+    #search-restaurants::placeholder{
+        position: relative;
+        left: 50px;
+    }
+    #search-icon {
+        top: 42px;
+        left: 20px;
+    }
+    section h2 {
+        font-size: 24px;
+        margin: 35px 30px 0;
+    }
+    section p {
+        margin: 14px 30px;
+        font-size: 14px;
+    }
+    #card-container {
+        column-count: 1;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+
+}

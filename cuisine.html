@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cuisine.css"/>
+    <title>Restaurant</title>
+</head>
+<body>
+    <header>
+        <div id="res-logo">
+            <a href="index.html" style="text-decoration: none;">
+                <span>e!</span>
+            </a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li class="login">Login</li>
+                <li><button type="button" class="acctbtn">Create an account</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <h1>Breakfast Places in Mumbai</h1>
+    
+    <main>
+        <section class="filter-section">
+            <h2>Filters</h2>
+            <h3>Select Location</h3>
+            <select>
+                <option>Select Location</option>
+            </select>
+
+            <div class="cuisine">
+                <h3>Cusine</h3>
+                <div class="checkbox-wrapper">
+                    <div class="checkbox">
+                        <input type="checkbox" id="ni" name="cuisine" value="north-indian"/>
+                        <label for="ni">North Indian</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="si" name="cuisine" value="south-indian"/>
+                        <label for="si">South Indian</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="chinese" name="cuisine" value="chinese"/>
+                        <label for="chinese">Chinese</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="ff" name="cuisine" value="fast-food"/>
+                        <label for="ff">Fast Food</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="sf" name="cuisine" value="street-food"/>
+                        <label for="sfi">Street Food</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cost">
+                <h3>Cost For Two</h3>
+                <div class="radio-wrapper">
+                    <div class="radiobox">
+                        <input type="radio" class="lt500" name="cost" value="500"/>
+                        <label for="lt500">Less than 500</label>
+                    </div>
+                    <div class="radiobox">
+                        <input type="radio" class="5to1k" name="cost" value="500-to-1000"/>
+                        <label for="5to1k">500 to 1000</label>
+                    </div>
+                    <div class="radiobox">
+                        <input type="radio" class="1kto15" name="cost" value="1000-to-1500"/>
+                        <label for="1kto15">1000 to 1500</label>
+                    </div>
+                    <div class="radiobox">
+                        <input type="radio" class="15to2k" name="cost" value="1500-to-2000"/>
+                        <label for="15to2k">1500 to 2000</label>
+                    </div>
+                    <div class="radiobox">
+                        <input type="radio" class="abv2k" name="cost" value="2000"/>
+                        <label for="abv2k">2000+</label>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Sort</h2>
+            <div class="radio-wrapper">
+                <div class="radiobox">
+                    <input type="radio" id="lowtohg" name="sort" value="low-to-high"/>
+                    <label for="lowtohg">Price low to high</label>
+                </div>
+                <div class="radiobox">
+                    <input type="radio" id="hgtolow" name="sort" value="high-to-low"/>
+                    <label for="hgtolow">Price high to low</label>
+                </div>
+            </div>
+        </section>
+        
+        <section class="content-section">
+            <article>
+                <a href="restuarant.html" style="text-decoration: none;">
+                    <div class="restaurant-card">
+                        <img src="images/shutterstock_351721442.png" alt="breakfast image" width="120px" height="120px" />
+                        <div class="shop-address">
+                            <h1>The Big Chill Cakery</h1>
+                            <h5>FORT</h5>
+                            <p>Shop 1, Plot D, Samrudhhi Complex, Chinchali ...</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="cuisine-card">
+                        <table>
+                            <tr>
+                                <td class="heading" colspan="2">CUISINES:</td>
+                                <td class="cuisine-body">Bakery</td>
+                            </tr>
+                            <tr>
+                                <td class="heading" colspan="2">COST FOR TWO</td>
+                                <td class="cuisine-body"><span>&#8377;</span>700</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+            </article>
+
+            <article>
+                <a href="restuarant.html" style="text-decoration: none;">
+                    <div class="restaurant-card">  
+                        <img src="images/shutterstock_351721442.png" alt="breakfast image" width="120px" height="120px" />
+                        <div class="shop-address">
+                            <h1>The Big Chill Cakery</h1>
+                            <h5>FORT</h5>
+                            <p>Shop 1, Plot D, Samrudhhi Complex, Chinchali ...</p>
+                        </div>            
+                    </div>
+                    <hr />
+                    <div class="cuisine-card">
+                        <table>
+                            <tr>
+                                <td class="heading" colspan="2">CUISINES:</td>
+                                <td class="cuisine-body">Bakery</td>
+                            </tr>
+                            <tr>
+                                <td class="heading" colspan="2">COST FOR TWO</td>
+                                <td class="cuisine-body"><span>&#8377;</span>700</td>
+                            </tr>
+                        </table>
+                    </div>
+                </a>
+            </article>
+        </section>
+
+        <div class="pagination">
+            <span>&lt;</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&gt;</span>
+        </div>
+    </main>
+</body>
+</html>

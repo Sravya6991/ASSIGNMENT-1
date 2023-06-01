@@ -1,0 +1,149 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.img-gallery {
+    position: absolute;
+    top: 152px;
+    left: 113px;
+    width: 1118px;
+    height: 352px;
+    background-image: url("images/shutterstock_1154073754.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-btn {
+    border: 0.5px solid var(--pure-white);
+    background-color: white;
+    opacity: 80%;
+    border-radius: 3px;
+    position: relative;
+    top: 280px;
+    left: 861px;
+    width: 242px;
+    height: 48px;
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gallery-btn:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.res-content {
+    height: 510px;
+    position: absolute;
+    top: 480px;
+}
+
+#res-title {
+    color: var(--blue);
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    top: 52px;
+    left: 3px;
+}
+
+.menu {
+    border-bottom: 0.1px solid rgba(225,225,225,0.1);
+    box-shadow: 0px 0.1px #000029;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    left: 116px;
+    width: 1118px;
+    border-bottom-color: var(--grey-4);
+}   
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: flex-start;
+}
+
+.menu-btn {
+    border: 0.2px transparent;
+    box-shadow: 0px 0.2px #000029;
+    padding: 15px 30px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #192F60;
+    font-weight: 600;
+    margin-right: 80px;
+}
+
+.overview:hover, .contact:hover,.overview:active, .contact:active
+{
+    border-bottom: 2px solid;
+    border-color: var(--orange);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#menu-order {
+    width: 223px;
+    height: 50px;
+    position: relative;
+    bottom: 22px;
+    padding: 10px;
+    border: 0.2px solid transparent;
+    border-radius: 6px;
+    background-color: var(--orange);
+    color: var(--pure-white);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#menu-order:hover {
+    cursor: pointer;
+    background-color: rgb(202, 12, 12);
+}
+
+section h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #192F60;
+    position: relative;
+    top: 95px;
+    left: 116px;
+}
+
+#menu-wrapper {
+    position: relative;
+    top: 140px;
+    left: 116px;
+    font-family: 'Poppins', sans-serif;
+    color: #192F60;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#cuisine p, #cost p {
+    margin-top: 11px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#cost {
+    margin-top: 25px;
+}
+
+
+
